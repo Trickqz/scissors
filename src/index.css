@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    user-select: none;
+    font-family: "Catamaran", sans-serif;
+}
+
+input::placeholder {
+    color: #B2AFB6;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
