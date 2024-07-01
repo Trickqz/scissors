@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Projeto HairDay - Guia de Instalação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Este projeto é um sistema de agendamento de atendimento desenvolvido utilizando ShadCN UI, TailwindCSS e TypeScript. Ele permite que os usuários selecionem uma data, um horário e informem o nome do cliente para criar um agendamento. Além disso, o sistema permite visualizar os agendamentos por período do dia (manhã, tarde e noite).
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- **React**: Biblioteca principal para construção da interface.
+- **ShadCN UI**: Conjunto de componentes de UI.
+- **TailwindCSS**: Framework CSS para estilização.
+- **TypeScript**: Superset de JavaScript que adiciona tipos estáticos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pré-requisitos
+- Node.js (>= 14.x)
+- npm ou yarn
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/usuario/repo.git
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. **Navegue até o diretório do projeto:**
+   ```bash
+   cd repo
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ou
+
+   ```bash
+   yarn install
+   ```
+
+4. **Execute o projeto:**
+   ```bash
+   npm start
+   ```
+
+   ou
+
+   ```bash
+   yarn start
+   ```
+
+5. **Abra o navegador e acesse `http://localhost:3000` para visualizar a aplicação.**
