@@ -17,7 +17,7 @@ Este projeto é um sistema de agendamento de atendimento desenvolvido utilizando
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/usuario/repo.git
+   git clone https://github.com/Trickqz/scissors.git
    ```
 
 2. **Navegue até o diretório do projeto:**
